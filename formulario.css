@@ -1,0 +1,43 @@
+body {
+    color: white;
+    background: url(imagenes/muebles-salon-medida-alta-calidad_872147-24040.jpg);
+    background-size: cover;
+    background-position:center;
+    margin: 0%;
+
+}
+
+h1 {
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.main{
+    color: white;
+    
+    
+}
+
+.form {
+    background-color:cadetblue;
+    width: 600px;
+    padding: 8px;
+    margin: 10px;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.camposForm {
+    width: 80%;
+    background: white;
+    padding: 15px;
+    margin-left: 5px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+
+}

@@ -1,0 +1,183 @@
+
+
+* {
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+
+body {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #181419;
+    color: #ffffff;
+
+}
+
+section {
+
+    display: flex;
+    width: 1300px;
+    height: 730px;
+}
+
+section img {
+    
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover {
+
+    cursor: crosshair;
+    width: 600px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+.header {
+    background-color: rgb(255, 115, 0);
+    color: #ffffff;
+    height: 30vh;
+    position: relative;
+    /* QUEDA PEGADO HEADER CON SECTION */
+    top: 0;
+    z-index: 10;
+
+    .navegacion {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding: 5rem;
+
+        .logo{
+            height: 40px;
+
+            &:hover{
+                transform: translate(-3px) scale(1.2);
+            }
+        }
+
+    
+
+        .listasNav {
+            list-style: none;
+            display: flex;
+            align-items:flex-start;
+
+            .listasItem {
+
+                margin-right: 30px;
+
+                &:hover{
+                    transform: translate(-5px) scale(1.05);
+                }
+
+            }
+
+            .linkNav {
+                color: #ffffff;
+                text-decoration: black;
+                font-weight: 700;
+                font-size: medium;
+                padding: 15px;
+                transition: transform 0.3s, box shadow 0.3s;
+
+
+                &:hover {
+
+                    transform: scale(0.98);
+                    border-radius: 10px;
+                    box-shadow: 0, 0, 0, 0.3 black;
+
+                }
+
+                /* transform: 0.5s; box shadow: 0.5em; */
+
+
+            }
+
+            .IngresarSesion {
+
+                background-color: #181419;
+                color: white;
+                border-radius: 10px;
+                transition: transform 0.3px;
+
+                &:hover {
+
+                    background-color: #9f3647;
+                    transform: scale(0.95);
+                    box-shadow: 0 0 10px rgb(0, 0, 0.3);
+
+                }
+            }
+        }
+
+    }
+}
+
+.buscadorprincipal{
+    background-color: #181419;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .titulosection{
+        
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    .buscador{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+
+        .inputbuscador{
+            height: 50px;
+            width: 400px;
+            margin: 20px 10px;
+            padding: 0px 20px;
+            font-size: 1.2rem;
+            border: 2px solid white;
+            border-radius: 25px;
+            outline: none;
+
+        }
+
+        .botonbuscador{
+            background-color: orangered;
+            color: black;
+            display: inline-block;
+            height: 50px;
+            margin: 20px 10px;
+            padding: 0 20px;
+            border-radius: 25px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            border: 2px solid white;
+            text-align: center;
+
+            &:hover{
+                background-color: #9f3647;
+                transform: scale(0.95);
+                box-shadow: 0 0 10px rgb(0, 0, 0.3);
+
+            }
+        }
+    }
+}
