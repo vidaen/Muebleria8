@@ -3,13 +3,15 @@
     box-sizing: border-box;
 
 }
-body {
+/* body {
+   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:whitesmoke;
     text-align: start;
-    height: 100vh;
+    height: 150vh;
+    width: 100%;
 
-}
+} */
  h1 {
 
      font-family: Arial, Helvetica, sans-serif;
@@ -19,34 +21,84 @@ body {
      margin-top: 50px;
     
  }
- h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700px;
-    color: rgb(243, 9, 9);
- }
-.galeria{
 
-    flex-flow:wrap;
-    width: 90%;
-    height:600px;
-    margin: 10px 10px;    
+ /* .container{
+    width:100%:
+    display:flex:
+    max-width:1100px:
+
+ }
+ */
+  .card{
+
+    width:100%;
+    margin:20px;
+    border-radius:6px;
+    overflow:hidden;
+    background:#fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor:defoult;
+    transition:all 400ms ease;
+
+ }
+  .card:hover{
+    box-shadow:5px 5px 10 px rgba(0,0,0,0.2);
+    transform: translateY(-3%);
+
+
+  }
+
+  .card img{
+    width: 100%;
+    height: 250px;
+
+  } 
+  
+ 
+
+/* .galeria{
     display:flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 10px;   
+    flex-wrap:wrap;
+    width: 100%;
+    height:100%;
+    margin: 10px 10px;     
+    justify-content:space-around;
+    gap: 50px;
+    overflow:hidden;
+    max-width: 1200;   
 }
 .item-imagen{
     width: 300px;
     height: 300px;
     /*para que quede centrada en contenedor*/
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-}
-.item-imagen.img {
-
+} */
+/* .item-imagen.img { */
+/* 
     width: 90%;
     height: 90%;
     object-fit: cover;
+    border: 3px solid black;
+    border-radius: 5px; */
+
+/* } */
+/* img{ */
+/* width: 100%; */
+
+/* } */ 
+.boton{
+
+    display:inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color:  rgb(152, 152, 169);
+    color:azure;
+    border: 3px;
+    text-align:center;
+    border-radius: 10px;
+    text-decoration: none;
+    
 }

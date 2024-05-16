@@ -20,19 +20,20 @@ h1 {
 }
 
 .form {
+
     background-color:cadetblue;
-    width: 600px;
-    padding: 8px;
-    margin: 10px;
-    margin-top: 100px;
+    width: 400px;
+    padding: 15px;
+    margin: 50px;
+    margin-top: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 
 .camposForm {
-    width: 80%;
+    width: 90%;
     background: white;
-    padding: 15px;
+    padding: 10px;
     margin-left: 5px;
     border-radius: 4px;
     margin-bottom: 16px;
@@ -40,4 +41,14 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 
+}
+.BotonVolver{
+    display: inline-block;
+    background-color:  rgb(16, 134, 136);
+    height: 30px;
+    color:azure;
+    border: 3px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
 }
