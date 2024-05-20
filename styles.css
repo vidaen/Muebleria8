@@ -1,15 +1,19 @@
 
+ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Share+Tech+Mono&display=swap');
+
 
 * {
     margin: 0;
     padding: 2px;
     box-sizing: border-box;
-    font-family: cursive;
-
+  
 }
 
-body {
+  
 
+body {
+    font-family:'Montserrat';
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #181419;
@@ -36,7 +40,7 @@ section img {
 section img:hover {
 
     cursor: crosshair;
-    width: 600px;
+    width: 400px;
     opacity: 1;
     filter: contrast(120%);
 }
@@ -45,38 +49,40 @@ section img:hover {
 .header {
     background-color: rgb(255, 115, 0);
     color: #ffffff;
-    height: 30vh;
-    position: relative;
+    height: 25vh;
+    /* width: 1300px; */
+    position: sticky;
     /* QUEDA PEGADO HEADER CON SECTION */
     top: 0;
     z-index: 10;
 
-    .navegacion {
+ .navegacion {
         display: flex;
-        justify-content:center;
-        align-items: center;
+        justify-content:space-between;
+        align-items:center;
         margin-left: 40px;
         margin-right: 40px;
         padding: 5rem;
 
         .logo{
-            height: 40px;
+            height: 50px;
 
             &:hover{
                 transform: translate(-3px) scale(1.2);
             }
+    
         }
 
-    
 
         .listasNav {
+
             list-style: none;
             display: flex;
             align-items:flex-start;
 
             .listasItem {
 
-                margin-right: 30px;
+                margin-right: 10px;
 
                 &:hover{
                     transform: translate(-5px) scale(1.05);
@@ -92,7 +98,6 @@ section img:hover {
                 padding: 15px;
                 transition: transform 0.3s, box shadow 0.3s;
 
-
                 &:hover {
 
                     transform: scale(0.98);
@@ -106,12 +111,13 @@ section img:hover {
 
             }
 
-            .IngresarSesion {
+            .ingresarSesion {
 
                 background-color: #181419;
                 color: white;
                 border-radius: 10px;
-                transition: transform 0.3px;
+                /* transition: transform 0.3px; */
+                transition: transform 0.3s, box shadow 0.3s;
 
                 &:hover {
 
@@ -120,6 +126,43 @@ section img:hover {
                     box-shadow: 0 0 10px rgb(0, 0, 0.3);
 
                 }
+            }
+
+            .iniciarSesion{
+
+                background-color: #181419;
+                color: white;
+                border-radius: 10px;
+                /* transition: transform 0.3px; */
+                transition: transform 0.3s, box shadow 0.3s;
+
+                &:hover {
+
+                    background-color: #9f3647;
+                    transform: scale(0.95);
+                    box-shadow: 0 0 10px rgb(0, 0, 0.3);
+
+                }
+
+
+            } 
+            .conexionapi{
+
+
+                background-color: #181419;
+                color: white;
+                border-radius: 10px;
+                /* transition: transform 0.3px; */
+                transition: transform 0.3s, box shadow 0.3s;
+
+                &:hover {
+
+                    background-color: #9f3647;
+                    transform: scale(0.95);
+                    box-shadow: 0 0 10px rgb(0, 0, 0.3);
+
+                } 
+
             }
         }
 
@@ -180,4 +223,7 @@ section img:hover {
             }
         }
     }
+   footer{
+     display: inline-flex;
+   }
 }
