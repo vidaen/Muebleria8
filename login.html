@@ -5,30 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesion</title>
     <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="furniture_couch_sofa_icon_194660.ico"> 
 </head>
 <body>
+ <!---header/main/section/form/script-->
+    <header class="header">
+       
+        <nav class="navegacion"> 
+            <a href="index.html">
+                <img class="logo" src="furniture_couch_sofa_icon_194660.ico" alt="logo" width="40px" height="40px">
+            </a>
+        <span> MUEBLERIA G8</span>
+           
+        </nav> 
+    </header>
+  <main class="main">
+    <section>
 
-            <form  method="get">
-                <h2 class="tituloRegistrarse">Iniciar Sesión</h2>
-                <div>
-                    <input type="email" required placeholder="Email" id="email" name="email">
-                
-                </div><br>
-                <div>
-                    <input type="password"  required placeholder="Contraseña" id="password" name="password">
-                   
-                </div>
-                <div class="span">
-                    <input class="boton" type="submit" value="Ingresar">
-                </div><br><br>
-                <div class="span">
-                    <a id="ayuda" class="registrarse" href="formulario.html">Registrarse</a>
-                </div>
-            </form>
-            
-        </section>
-    </main> 
+        <form method="get" action="">
 
-    
+     <h2>Inicio de Sesion</h2>
+     <div>
+        <input type="email" placeholder="email" name="email" id="email">
+        <div class="error-text"></div><br>
+     </div>
+     <div>
+        <input type="password" placeholder="contraseña"  name="password" id="password" >
+        <div class="error-text"></div>
+
+     </div><br><br>
+     <div>
+        <input type="submit"  class="boton" value="Iniciar Sesion">
+
+     </div><br><br>
+     <a href="formulario.html">Registrarse</a>
+          
+    </form>
+    </section>
+  </main>
+
+        <script src="script.js"></script>
 </body>
 </html>

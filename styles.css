@@ -55,6 +55,7 @@ section img:hover {
     /* QUEDA PEGADO HEADER CON SECTION */
     top: 0;
     z-index: 10;
+    
 
  .navegacion {
         display: flex;
@@ -63,6 +64,7 @@ section img:hover {
         margin-left: 40px;
         margin-right: 40px;
         padding: 5rem;
+      
 
         .logo{
             height: 50px;
@@ -78,7 +80,7 @@ section img:hover {
 
             list-style: none;
             display: flex;
-            align-items:flex-start;
+            align-items:start;
 
             .listasItem {
 
@@ -223,6 +225,7 @@ section img:hover {
             }
         }
     }
+
    footer{
      display: inline-flex;
    }

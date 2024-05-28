@@ -1,0 +1,15 @@
+body{
+background-image: url("https://i.pinimg.com/474x/b4/10/f3/b410f31ddcad231275a591002b6a465e.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+max-width: 1200px;
+}
+#llamar{
+
+    width: 100px;
+    height: 50px;
+    border: 4px solid grey;
+    background-color: rgb(191, 209, 31);
+}
+

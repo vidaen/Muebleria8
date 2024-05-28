@@ -8,11 +8,30 @@
 
 }
  body {
-
+    max-width: max-content;
     background-color:whitesmoke;
-    height: 150vh;
-
+   
+ 
 } 
+.header{
+  
+  height: 3vh;
+  font-family: 'Montserrat',  bold;
+  font-size: 3vh;
+  color: black;
+
+  .navegacion{
+    display: flex;
+  
+    .logo{
+      height: 4vh;
+      &:hover{
+
+        transform: scale(1.5);
+      }
+    }
+  }
+}
  h1 {
 
      font-family:'Montserrat',  bold;
