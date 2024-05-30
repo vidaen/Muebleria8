@@ -230,3 +230,34 @@ section img:hover {
      display: inline-flex;
    }
 }
+@media screen and (max-width:768px) {
+
+    .header{
+        height: initial;
+    }
+
+    section {
+
+        display: flex;
+        width: initial;
+        height: initial;
+    }
+    .navegacion{
+        flex-direction: column;
+        .listasItem {
+
+            margin:0;
+
+            &:hover{
+                transform: translate(-5px) scale(1.05);
+            }
+
+        }
+    }
+    .titulosection{
+        
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: 0.5rem;
+    }
+}
