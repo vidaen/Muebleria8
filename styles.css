@@ -47,6 +47,7 @@ section img:hover {
 
 
 .header {
+    width: 100%;
     background-color: rgb(255, 115, 0);
     color: #ffffff;
     height: 25vh;
@@ -58,7 +59,9 @@ section img:hover {
     
 
  .navegacion {
+        
         display: flex;
+        margin-top: auto;
         justify-content:space-between;
         align-items:center;
         margin-left: 40px;
@@ -225,8 +228,9 @@ section img:hover {
             }
         }
     }
+ 
+     }
 
    footer{
      display: inline-flex;
    }
-}
