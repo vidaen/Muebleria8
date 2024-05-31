@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Share+Tech+Mono&display=swap');
+body {
+    width: 100%;
+    color: white;
+    background: url(imagenes/muebles-salon-medida-alta-calidad_872147-24040.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+
+}
+
+h3 {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+header{
+    height: 10vh;
+    background-color:rgb(228, 137, 33);
+   .logo{
+        width: 40px;
+        height: 40px;
+    }
+   
+}
+span{
+    font-family:'Montserrat';
+    color:black;
+    font-size: 15px;
+    text-decoration: none;
+}
+section{
+    display: flex;
+    
+}
+
+#formulario {
+    width: 500px;
+    height: 500px;
+    background-color: cadetblue;
+    border: black;
+    border-radius: 4px;
+   margin-bottom: 10px;
+    padding: 15px;
+    margin: 200px;
+    margin-top: auto;
+    font-family: 'Monterrat';
+    color: white;
+
+    input {
+        width: 90%;
+        height: 30px;
+        background: white;
+        padding: 5px;
+        margin-left: 5px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+
+    }
+
+    label {
+        font-size: 15px;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: 2px;
+    }
+
+
+    .boton {
+
+        background-color: rgb(16, 134, 136);
+        height: 30px;
+        width: 130px;
+        color: azure;
+        border: 3px;
+        text-align: center;
+        border-radius: 10px;
+        text-decoration: none;
+
+
+    }
+
+
+    .BotonVolver {
+
+        background-color: rgb(16, 134, 136);
+        height: 30px;
+        color: azure;
+        border: 3px;
+        text-align: center;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+
+}
+
