@@ -38,9 +38,9 @@ section{
 
 #formulario {
     width: 500px;
-    height: 500px;
-    background-color: cadetblue;
-    border: black;
+    height: 600px;
+    background-color: #333333;
+    border: orangered;
     border-radius: 4px;
    margin-bottom: 10px;
     padding: 15px;
@@ -52,16 +52,26 @@ section{
     input {
         width: 90%;
         height: 30px;
-        background: white;
+        background: #333333;
         padding: 5px;
         margin-left: 5px;
         border-radius: 4px;
         margin-bottom: 16px;
-        border: 1px solid white;
+        border: 1px solid orangered;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 14px;
 
     }
+
+     /* .error input{
+        border: 1px solid #ff0000;
+     }*/
+    .error-text{
+        color: #ff0000;
+        font-size: 0.8rem;
+        margin-top:0px;
+        margin-bottom: 10px;
+    }  
 
     label {
         font-size: 15px;
@@ -73,7 +83,7 @@ section{
 
     .boton {
 
-        background-color: rgb(16, 134, 136);
+        background-color: orangered;
         height: 30px;
         width: 130px;
         color: azure;

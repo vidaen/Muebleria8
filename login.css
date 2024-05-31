@@ -51,7 +51,7 @@ h2{
             padding: 0px 20px;
             font-size: 1rem;
             border-radius: 20px;
-            border: 2px solid #9f3647;
+            border: 2px solid orangered;
             background-color: #333333;
             outline: none;
             color:rgb(255, 255, 255);
@@ -69,8 +69,8 @@ h2{
         .boton{
             width: 80%;
             box-sizing: content-box;
-            background-color:#9f3647;
-            border: 2px solid #9f3647;
+            background-color:orangered;
+            border: 2px solid orangered;
             color: #ffffff;
             border-radius: 5px;
             font-size: 16px;
@@ -79,9 +79,9 @@ h2{
         }
         a{
         width: 100%;
-         background-color:#9f3647;
-         border: 2px solid #9f3647;
-         color: black;
+         background-color: orangered;
+         border: 2px solid orangered;
+         color: white;
          padding:5px;
          border-radius: 5px;
          font-size: 20px;
