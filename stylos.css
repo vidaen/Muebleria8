@@ -45,7 +45,7 @@ section img:hover {
 
 
 .header {
-    width: 100%;
+    width: 1300px;
     background-color: rgb(255, 115, 0);
     color: #ffffff;
     height: 25vh;
@@ -230,8 +230,11 @@ section img:hover {
 
 }
 
+.card{
 
+    display: inline-flex;
 
+}
 footer {
     display: inline-flex;
 }
